@@ -1,0 +1,390 @@
+h1{
+    color:#dd4444;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.light-theme {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px ;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.cta-button {
+    background-color: #ff5555;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background-color:black;
+}
+/* Reset default styles */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    /* Add styles for the header/navigation menu */
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url('logo.jpeg'); /* Replace 'hero-image.jpg' with your actual image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust the height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4d4d; /* Red accent color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0c0c0c; /* Darker red on hover */
+}
+
+/* Reset default styles */
+
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    /* Add styles for the header/navigation menu */
+}
+
+/* Event Categories section styles */
+.event-categories {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.category {
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.category img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.category h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.category p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.category .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4d4d; /* Red accent color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.category .btn:hover {
+    background-color:black; /* Darker red on hover */
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    /* Add styles for the header/navigation menu */
+}
+
+/* Featured Events section styles */
+.featured-events {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.event {
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.event img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.event h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.event p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.event .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4d4d; /* Red accent color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.event .btn:hover {
+    background-color:black; /* Darker red on hover */
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+}
+
+.search-box input[type="text"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    margin-left: 5px; 
+}
+
+.search-box button {
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: #ff4d4d; /* Red accent color */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+.search-box button:hover {
+    background-color: black; /* Darker red on hover */
+}
+
+.categories-btn {
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: #ff4d4d; /* Red accent color */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.categories-btn:hover {
+    background-color: black; /* Darker red on hover */
+}
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Header styles */
+/* Header styles as per previous example */
+
+/* Events section styles */
+.events-section {
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    overflow: auto; /* Hide overflow to prevent scroll bar */
+}
+
+.events-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+}
+
+.event-card {
+    width: 300px;
+    min-width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    display: 'inline-block';
+}
+
+.event-card:hover {
+    transform: scale(1.05);
+}
+
+.event-card img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.event-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.event-card p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #ff4d4d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: black;
+}
+
+/* Hero section styles */
+.hero {
+    position: relative;
+    z-index: 1;
+}
+
+/* Add this to your styles.css file */
+.arrow-indicator {
+    position: absolute;
+    top: 50%;
+    right: 10px; /* Adjust position as needed */
+    transform: translateY(-50%);
+    font-size: 24px; /* Adjust arrow size */
+    cursor: pointer;
+}
